@@ -4,6 +4,7 @@
   "description": "",
   "main": "bot.js",
   "dependencies": {
-    "discord.js": "^14.14.1"
+    "discord.js": "^14.14.1",
+    "express": "^4.17.1"
   }
 }
