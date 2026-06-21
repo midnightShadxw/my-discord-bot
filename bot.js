@@ -1,3 +1,8 @@
+const express = require('express')
+const app = express()
+const port = process.env.PORT || 3000
+app.get('/', (req, res) => res.send('bot is active'))
+app.listen(port, () => console.log('server is running'))
 const { Client, GatewayIntentBits } = require('discord.js')
 const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.MessageContent] })
 
